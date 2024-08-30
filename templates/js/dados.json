@@ -1,0 +1,180 @@
+{
+  "itensDeAposta": [
+    {
+      "id": 1,
+      "aoVivo": true,
+      "timeA": "Barcelona",
+      "timeB": "Real Madrid",
+      "percentualGanhoTimeA": 1.5,
+      "percentualGanhoTimeB": 2.0,
+      "percentualEmpate": 1.5,
+      "placar": "2 - 1",
+      "minutoAtual": "75"
+    },
+    {
+      "id": 2,
+      "aoVivo": false,
+      "timeA": "Corinthians",
+      "timeB": "Palmeiras",
+      "percentualGanhoTimeA": 1.8,
+      "percentualGanhoTimeB": 1.9,
+      "percentualEmpate": 1.8,
+      "placar": "",
+      "minutoAtual": ""
+    },
+    {
+      "id": 3,
+      "aoVivo": true,
+      "timeA": "Flamengo",
+      "timeB": "Vasco",
+      "percentualGanhoTimeA": 1.7,
+      "percentualGanhoTimeB": 2.2,
+      "percentualEmpate": 0.9,
+      "placar": "0 - 0",
+      "minutoAtual": "30"
+    },
+    {
+      "id": 4,
+      "aoVivo": false,
+      "timeA": "Água Santa",
+      "timeB": "Ferroviária",
+      "percentualGanhoTimeA": 2.3,
+      "percentualGanhoTimeB": 1.4,
+      "percentualEmpate": 2.1,
+      "placar": "",
+      "minutoAtual": ""
+    },
+    {
+      "id": 5,
+      "aoVivo": true,
+      "timeA": "Boca Juniors",
+      "timeB": "Racing",
+      "percentualGanhoTimeA": 1.6,
+      "percentualGanhoTimeB": 2.1,
+      "percentualEmpate": 4.1,
+      "placar": "3 - 3",
+      "minutoAtual": "85"
+    },
+    {
+      "id": 6,
+      "aoVivo": true,
+      "timeA": "Bayern de Munique",
+      "timeB": "Tottenham",
+      "percentualGanhoTimeA": 2.0,
+      "percentualGanhoTimeB": 1.8,
+      "percentualEmpate": 1.6,
+      "placar": "1 - 1",
+      "minutoAtual": "60"
+    },
+    {
+      "id": 7,
+      "aoVivo": false,
+      "timeA": "Cuiabá",
+      "timeB": "Criciúma",
+      "percentualGanhoTimeA": 2.2,
+      "percentualGanhoTimeB": 1.5,
+      "percentualEmpate": 2.25,
+      "placar": "",
+      "minutoAtual": ""
+    },
+    {
+      "id": 8,
+      "aoVivo": true,
+      "timeA": "Borussia Dortmund",
+      "timeB": "RB Leipzig",
+      "percentualGanhoTimeA": 1.4,
+      "percentualGanhoTimeB": 2.3,
+      "percentualEmpate": 2.34,
+      "placar": "2 - 2",
+      "minutoAtual": "90"
+    },
+    {
+      "id": 9,
+      "aoVivo": false,
+      "timeA": "Grêmio",
+      "timeB": "Internacional",
+      "percentualGanhoTimeA": 1.9,
+      "percentualGanhoTimeB": 2.0,
+      "percentualEmpate": 1.45,
+      "placar": "",
+      "minutoAtual": ""
+    },
+    {
+      "id": 10,
+      "aoVivo": true,
+      "timeA": "Cruzeiro",
+      "timeB": "Chapecoense",
+      "percentualGanhoTimeA": 1.5,
+      "percentualGanhoTimeB": 2.2,
+      "percentualEmpate": 1.69,
+      "placar": "0 - 1",
+      "minutoAtual": "70"
+    },
+    {
+      "id": 11,
+      "aoVivo": false,
+      "timeA": "Atlético de Madrid",
+      "timeB": "Sevilla",
+      "percentualGanhoTimeA": 1.7,
+      "percentualGanhoTimeB": 2.1,
+      "percentualEmpate": 2.13,
+      "placar": "",
+      "minutoAtual": ""
+    },
+    {
+      "id": 12,
+      "aoVivo": true,
+      "timeA": "PSG",
+      "timeB": "Miami F.C.",
+      "percentualGanhoTimeA": 1.8,
+      "percentualGanhoTimeB": 1.9,
+      "percentualEmpate": 2.71,
+      "placar": "1 - 1",
+      "minutoAtual": "45"
+    },
+    {
+      "id": 13,
+      "aoVivo": false,
+      "timeA": "Liverpool",
+      "timeB": "Manchester City",
+      "percentualGanhoTimeA": 2.4,
+      "percentualGanhoTimeB": 1.3,
+      "percentualEmpate": 3.11,
+      "placar": "",
+      "minutoAtual": ""
+    },
+    {
+      "id": 14,
+      "aoVivo": true,
+      "timeA": "Manchester United",
+      "timeB": "Chelsea",
+      "percentualGanhoTimeA": 1.6,
+      "percentualGanhoTimeB": 2.0,
+      "percentualEmpate": 2.32,
+      "placar": "1 - 2",
+      "minutoAtual": "80"
+    },
+    {
+      "id": 15,
+      "aoVivo": false,
+      "timeA": "Benfica",
+      "timeB": "Porto",
+      "percentualGanhoTimeA": 1.3,
+      "percentualGanhoTimeB": 2.5,
+      "percentualEmpate": 3.91,
+      "placar": "",
+      "minutoAtual": ""
+    },
+    {
+      "id": 16,
+      "aoVivo": false,
+      "timeA": "Botafogo",
+      "timeB": "Fluminense",
+      "percentualGanhoTimeA": 1.4,
+      "percentualGanhoTimeB": 2.0,
+      "percentualEmpate": 1.54,
+      "placar": "",
+      "minutoAtual": ""
+    }
+  ]
+}
