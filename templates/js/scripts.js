@@ -183,3 +183,46 @@ function cancelarAposta(id){
         $("#ganhosPotenciais"+id).text('');
     }
 }
+
+
+//--- Djonathan ----
+
+function irParaMinhasApostas() {
+    window.location.href = 'templates/html/MinhasApostas.html'; 
+}
+
+function irParaMain() {
+    window.location.href = '../../index.html';    
+}
+
+function carregarMinhasApostas() {
+    const minhasApostasList = document.getElementById('minhasApostasList');
+        
+    if (minhasApostasList) {
+        try {            
+            minhasApostasList.innerHTML = '';
+            
+            for (let i = 0; i < localStorage.length; i++) {
+                const chave = localStorage.key(i);
+
+                if (chave.startsWith('aposta_')) {
+                    const aposta = JSON.parse(localStorage.getItem(chave));
+                    
+                    const apostaItem = document.createElement('div');
+                    apostaItem.className = 'bet-item';
+                    apostaItem.innerHTML = `
+                        <h2>Aposta no Jogo ${aposta.idJogo}</h2>
+                        <p>Valor Apostado: R$ ${aposta.valor}</p>
+                        <p>Ganhos Potenciais: ${aposta.ganhos}</p>
+                    `;
+                    minhasApostasList.appendChild(apostaItem);
+                }
+            }
+
+        } catch (erro) {
+            console.error('Erro ao carregar as apostas do usuário:', erro);
+        }
+    }
+}
+
+document.addEventListener('DOMContentLoaded', carregarMinhasApostas);
